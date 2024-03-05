@@ -6,8 +6,11 @@ date: 2024-03-05 00:00:00+0000
 image: osu-gaming-ctf-2024-1.png
 categories:
     - ctf
+    - competitions
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
+
+
 
 These are my writeups for osu!gaming CTF 2024.
 
