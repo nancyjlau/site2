@@ -1,13 +1,11 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
+title: osu!gaming CTF 2024
+description: my writeups for osu!gaming CTF 2024
+slug: osugamingctf-2024
+date: 2024-03-05 00:00:00+0000
+image: osu-gaming-ctf-2024-1.png
 categories:
-    - Example Category
-tags:
-    - Example Tag
+    - ctf
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

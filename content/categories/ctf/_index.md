@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: ctf
+description: CTF writeups
 image:
 
 # Badge style
