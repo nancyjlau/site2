@@ -10,8 +10,6 @@ categories:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-
-
 These are my writeups for osu!gaming CTF 2024.
 
 Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)

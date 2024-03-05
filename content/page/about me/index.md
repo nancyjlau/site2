@@ -10,4 +10,4 @@ menu:
 comments: false
 ---
 
-hi, i'm rose. i'm active on twitter and sometimes do ctfs/comps
+hi, i'm rose. i sometimes do ctfs/comps
