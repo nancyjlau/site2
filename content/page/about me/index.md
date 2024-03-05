@@ -1,15 +1,15 @@
 ---
-title: Links
-links:
+title: About me
+about me:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
     main: 
-        weight: 5
+        weight: 3
         params:
-            icon: link
+            icon: infinity
 
 comments: false
 ---
