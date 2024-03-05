@@ -21,7 +21,8 @@ This problem was my first time working with blockchain problems. I was provided 
 
 Initially looking at the [dist.zip](dist.zip), this is the directory of the challenge
 
-```(base) rose@catputer scorechain % tree .
+```shell
+(base) rose@catputer scorechain % tree .
 .
 ├── README.md
 ├── framework
