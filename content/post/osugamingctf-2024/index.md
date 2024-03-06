@@ -75,6 +75,7 @@ Initially looking at the [dist.zip](dist.zip), this is the directory of the chal
 
 17 directories, 32 files
 ```
+ok this writeup still wip lol
 
 ### reverse/SAT-before-osu
 > My mom won’t let me play osu if I don’t study for the SAT but this looks nothing like it! Please help me! T^T<br>
