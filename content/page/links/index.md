@@ -19,6 +19,13 @@ links:
     description: x86 course
     website: https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about
     image: https://p.ost2.fyi/asset-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1+type@asset+block@CC_ARCH1001_test.png
+  - title: The Copenhagen Book
+    description: an open source guide on implementing auth for the web! It covers everything, including sessions, CSRF protection, passkeys, OAuth, 2FA, email verification, and password reset
+    website: https://thecopenhagenbook.com/
+  - title: Algorithms for Modern Hardware
+    description: yeah this book is actually just about HPCs sorry
+    website: https://en.algorithmica.org/hpc/
+    image: https://en.algorithmica.org/hpc/complexity/img/lithography.png
     
 menu:
     main: 
