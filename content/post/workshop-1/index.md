@@ -59,9 +59,6 @@ Subgoals
 Fixed vs dynamic task selection
 -  Fixed task selection only trains at the most difficult level, encoded in the color map
 
-Task sampling strategy (smoothness)
-- By changing the task smoothly, it is possible (i missed this sentence it is in the slides)
-
 Toward robustness
 - The "universe of tasks" approach results in some tolerance to red agent behavior deviation
 - In this case, the red agents "morph" their behavior with some probability using the RL algorithm PPO
