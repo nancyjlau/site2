@@ -8,9 +8,9 @@
 #newtab = true
 
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/nancyjlau"
+# identifier = "github"
+# name = "GitHub"
+# url = "https://github.com/nancyjlau"
 
 [social.params]
 icon = "brand-github"
