@@ -7,13 +7,13 @@
 #icon = "home"
 #newtab = true
 
-[[social]]
+# [[social]]
 # identifier = "github"
 # name = "GitHub"
 # url = "https://github.com/nancyjlau"
 
-[social.params]
-icon = "brand-github"
+# [social.params]
+#icon = "brand-github"
 
 [[social]]
 identifier = "twitter"
