@@ -25,7 +25,7 @@ categories:
 - [Reinforcement Learning (intro)](http://incompleteideas.net/book/the-book-2nd.html)
 
 
-(links below from [yacine.ca](https://yacine.ca/))
+> links below from [yacine.ca](https://yacine.ca/)
 
 - https://arxiv.org/abs/2209.04836
   - Git re-basin
