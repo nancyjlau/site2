@@ -22,7 +22,7 @@ categories:
 - [Unlimiformer - kNN inside transformers](https://arxiv.org/abs/2305.01625/)
 - [How far can you train a model on a single consume GPU](https://arxiv.org/pdf/2212.14034.pdf)
 - [Karpathy's course on building NNs from scratch](https://karpathy.ai/zero-to-hero.html)
-- [Reinforcement Learning(intro)][http://incompleteideas.net/book/the-book-2nd.html]
+- [Reinforcement Learning (intro)](http://incompleteideas.net/book/the-book-2nd.html)
 
 
 (links below from [yacine.ca](https://yacine.ca/))
