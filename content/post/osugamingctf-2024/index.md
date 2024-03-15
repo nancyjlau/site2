@@ -266,7 +266,7 @@ pub mod solve {
             map: "blue zenith".to_string(),
             player: "chocomint".to_string(),
             pp: 728,
-            bounty: 1, // min bounty amount was 500_000_000_000_000
+            bounty: 1, 
         };
 
         let cpi_program = ctx.accounts.chall.to_account_info();
@@ -311,7 +311,7 @@ pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
             map: "blue zenith".to_string(),
             player: "chocomint".to_string(),
             pp: 728,
-            bounty: 1, // i think min bounty amount was 500_000_000_000_000 but this worked
+            bounty: 1,
         };
 
         let cpi_program = ctx.accounts.chall.to_account_info();
