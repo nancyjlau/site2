@@ -338,7 +338,8 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 ```
 
-![actual flag](image2.png)
+![actual flag](img/image-2.png)
+
 We are able to run the solve script again and we get the flag `osu{blud_think_he_mrekk}`.
 
 ### reverse/SAT-before-osu
