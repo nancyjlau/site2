@@ -13,7 +13,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 These are my writeups for [osu!gaming CTF 2024](https://ctftime.org/event/2165).
 
 ### blockchain/scorechain
-> Snipe mr nathan on osu and claim the bounty in the very secure blockchain bancho!
+> Snipe mr nathan on osu and claim the bounty in the very secure blockchain bancho!  
 > `nc chal2.osugaming.lol 8000`  
 > — <cite>Triacontakai</cite>
 
