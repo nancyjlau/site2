@@ -16,6 +16,7 @@ categories:
 - [@arpitingle's ML Resources Stash](https://arc.net/e/D242E263-31FD-4CF9-A2D5-B67519C049AF)
 - [Deep Learning (MIT Press Book)](https://www.deeplearningbook.org/)
   + this book covers everything up to just before transformers
+- [LocalModelsPapers rentry link](https://rentry.org/LocalModelsPapers)
 
 ## Reading List 
 - [LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
