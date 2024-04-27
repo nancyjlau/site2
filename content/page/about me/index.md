@@ -10,4 +10,6 @@ menu:
 comments: false
 ---
 
-hi, i'm rose. i sometimes do ctfs/comps
+hi, i'm rose. i sometimes do ctfs/comps, should probably post more about projects, talks, and conferences soon.
+
+email: nachoyawn [at] gmail [dot] com
