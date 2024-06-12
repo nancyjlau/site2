@@ -22,8 +22,11 @@ links:
   - title: The Copenhagen Book
     description: an open source guide on implementing auth for the web! It covers everything, including sessions, CSRF protection, passkeys, OAuth, 2FA, email verification, and password reset
     website: https://thecopenhagenbook.com/
+  - title: Beginner PCIe
+    description:  learning PCIe stack in Windows (MMIO, DMA, TLPs, and more)
+    website: https://ctf.re/windows/kernel/pcie/tutorial/2023/02/14/pcie-part-1/
   - title: Algorithms for Modern Hardware
-    description: yeah this book is actually just about HPCs sorry
+    description: this book isn't security related but cool
     website: https://en.algorithmica.org/hpc/
     image: https://en.algorithmica.org/hpc/complexity/img/lithography.png
     
