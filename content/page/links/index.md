@@ -16,12 +16,15 @@ links:
     website: https://dreamhack.io
     image: https://dreamhack.io/assets/img/for-beginner-1.6a474bc.svg
   - title: OST2 x86-64 Assembly
-    description: x86 course
     website: https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about
     image: https://p.ost2.fyi/asset-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1+type@asset+block@CC_ARCH1001_test.png
   - title: The Copenhagen Book
     description: an open source guide on implementing auth for the web! It covers everything, including sessions, CSRF protection, passkeys, OAuth, 2FA, email verification, and password reset
     website: https://thecopenhagenbook.com/
+  - title: Linux Hardening Guide
+    website: https://madaidans-insecurities.github.io/guides/linux-hardening.html
+  - title: The Decompilation Wiki
+    website: https://decompilation.wiki/
   - title: Beginner PCIe
     description:  learning PCIe stack in Windows (MMIO, DMA, TLPs, and more)
     website: https://ctf.re/windows/kernel/pcie/tutorial/2023/02/14/pcie-part-1/
