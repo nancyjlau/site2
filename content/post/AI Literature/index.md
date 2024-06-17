@@ -2,7 +2,7 @@
 title: AI Literature
 description: ai resources
 slug: ai-literature
-date: 2024-06-16 00:00:00+0000
+date: 2024-03-15 00:00:00+0000
 categories:
     - AI
     - LLMs      # You can add weight to some posts to override the default sorting (date descending)
@@ -53,8 +53,8 @@ categories:
 https://dreamtuner-diffusion.github.io/ - ipadapter but different
 https://arxiv.org/pdf/2312.13789.pdf - how i beat the big wigs
 https://arxiv.org/abs/2312.09608 - faster stable diffusion by skipping unecessary bits
-https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/ code_for_anydoor_zeroshot_objectlevel_image/
-dont forget - diffusion slider demo https://github.com/Kevin-thu/DiffMorpher?tab=readme-ov-file
+https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/code_for_anydoor_zeroshot_objectlevel_image/
+dont forget - diffusion slider demo   https://github.com/Kevin-thu/DiffMorpher?tab=readme-ov-file
 https://arxiv.org/pdf/2312.01943.pdf - anime
 https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2
 https://github.com/open-mmlab/PIA - video generator
