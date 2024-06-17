@@ -2,7 +2,7 @@
 title: AI Literature
 description: ai resources
 slug: ai-literature
-date: 2024-03-13 00:00:00+0000
+date: 2024-06-16 00:00:00+0000
 categories:
     - AI
     - LLMs      # You can add weight to some posts to override the default sorting (date descending)
@@ -19,7 +19,7 @@ categories:
 - [LocalModelsPapers rentry link](https://rentry.org/LocalModelsPapers)
 - [Generative AI Handbook](https://genai-handbook.github.io/)
 
-## Reading List 
+## Reading List
 - [LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
 - [Unlimiformer - kNN inside transformers](https://arxiv.org/abs/2305.01625/)
 - [How far can you train a model on a single consume GPU](https://arxiv.org/pdf/2212.14034.pdf)
@@ -45,18 +45,17 @@ categories:
 - [Cross-Task Skills with Task-Level Mixture-of-Experts](https://arxiv.org/abs/2205.12701)
 - [Mixture-of-Supernets](https://arxiv.org/pdf/2306.04845.pdf)
 - [Sparse Upcycling](https://arxiv.org/abs/2212.05055)
-- [AdaMix](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/Mixture_of_Adaptations_EMNLP_2022-2.pdf) 
+- [AdaMix](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/Mixture_of_Adaptations_EMNLP_2022-2.pdf)
 - [Prompting Large Language Models with Speech Recognition Abilities](https://arxiv.org/pdf/2307.11795.pdf)
 - https://arxiv.org/pdf/2307.11795.pdf
   - speech recognition with palm-e like strategy
 
-https://dreamtuner-diffusion.github.io/ - ipadapter but different  
+https://dreamtuner-diffusion.github.io/ - ipadapter but different
 https://arxiv.org/pdf/2312.13789.pdf - how i beat the big wigs
-https://arxiv.org/abs/2312.09608 - faster stable diffusion by skipping unecessary bits  
-https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/ code_for_anydoor_zeroshot_objectlevel_image/  
-dont forget - diffusion slider demo https://github.com/Kevin-thu/DiffMorpher?tab=readme-ov-file  
-https://arxiv.org/pdf/2312.01943.pdf - anime  
-https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2   
-https://github.com/open-mmlab/PIA - video generator  
-https://github.com/cumulo-autumn/StreamDiffusion - turbo go fast  
-
+https://arxiv.org/abs/2312.09608 - faster stable diffusion by skipping unecessary bits
+https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/ code_for_anydoor_zeroshot_objectlevel_image/
+dont forget - diffusion slider demo https://github.com/Kevin-thu/DiffMorpher?tab=readme-ov-file
+https://arxiv.org/pdf/2312.01943.pdf - anime
+https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2
+https://github.com/open-mmlab/PIA - video generator
+https://github.com/cumulo-autumn/StreamDiffusion - turbo go fast
