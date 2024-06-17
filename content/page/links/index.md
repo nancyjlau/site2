@@ -1,8 +1,8 @@
 ---
 title: Links
 links:
-  - title: Reverse Engineering for Everyone! 
-    description: course by @mytechnotalent 
+  - title: Reverse Engineering for Everyone!
+    description: course by @mytechnotalent
     website: https://0xinfection.github.io/reversing/
     image: https://0xinfection.github.io/reversing/imgs/1520642123733.jpg
   - title: crackmes.one
@@ -25,6 +25,9 @@ links:
     website: https://madaidans-insecurities.github.io/guides/linux-hardening.html
   - title: The Decompilation Wiki
     website: https://decompilation.wiki/
+  - title: macOS Malware Development
+    description: a guide on macOS malware development
+    website: https://0x00sec.org/t/macos-malware-development/39443
   - title: Beginner PCIe
     description:  learning PCIe stack in Windows (MMIO, DMA, TLPs, and more)
     website: https://ctf.re/windows/kernel/pcie/tutorial/2023/02/14/pcie-part-1/
@@ -32,9 +35,9 @@ links:
     description: this book isn't security related but cool
     website: https://en.algorithmica.org/hpc/
     image: https://en.algorithmica.org/hpc/complexity/img/lithography.png
-    
+
 menu:
-    main: 
+    main:
         weight: 5
         params:
             icon: link
