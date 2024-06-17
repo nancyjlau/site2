@@ -17,6 +17,7 @@ categories:
 - [Deep Learning (MIT Press Book)](https://www.deeplearningbook.org/)
   + this book covers everything up to just before transformers
 - [LocalModelsPapers rentry link](https://rentry.org/LocalModelsPapers)
+- [Generative AI Handbook](https://genai-handbook.github.io/)
 
 ## Reading List 
 - [LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
