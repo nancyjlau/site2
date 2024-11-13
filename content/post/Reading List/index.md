@@ -11,9 +11,9 @@ Not very important page, thought I'd just keep track of current stuff that I'd l
 
 ## Nov 2024
 - [A Meticulous Guide to Advances in Deep Learning Efficiency over the Years](https://alexzhang13.github.io/blog/2024/efficient-dl/) 
+- [Pytorch Internals](http://blog.ezyang.com/2019/05/pytorch-internals/)
 
-## stuff on entropix
+### stuff on entropix
 because i still don't really understand it  
 - [notes on entropix llms](https://github.com/vkalvakotamath/entropic_llms/blob/main/Entropic_LLMs.pdf)
 - [Entropixplained](https://southbridge-research.notion.site/Entropixplained-11e5fec70db18022b083d7d7b0e93505)
-- 
