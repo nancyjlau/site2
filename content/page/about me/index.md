@@ -12,4 +12,9 @@ comments: false
 
 hi, i'm rose. sometimes do ctfs/comps, should probably post more about projects, talks, and events soon.
 
-email: nachoyawn [at] gmail [dot] com
+possible upcoming content
+- more ctf stuff
+- hardware posting
+- formal methods post?
+
+email: nachofollow [at] gmail [dot] com

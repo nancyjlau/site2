@@ -25,7 +25,7 @@ categories:
 - [How far can you train a model on a single consume GPU](https://arxiv.org/pdf/2212.14034.pdf)
 - [Karpathy's course on building NNs from scratch](https://karpathy.ai/zero-to-hero.html)
 - [Reinforcement Learning (intro)](http://incompleteideas.net/book/the-book-2nd.html)
-
+- [A Meticulous Guide to Advances in Deep Learning Efficiency over the Years](https://alexzhang13.github.io/blog/2024/efficient-dl/)
 
 > links below from [yacine.ca](https://yacine.ca/)
 

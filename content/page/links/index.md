@@ -1,6 +1,9 @@
 ---
 title: Links
 links:
+  - title: General Security Resources
+    description: good list of infosec resources
+    website: https://github.com/stong/infosec-resources
   - title: Reverse Engineering for Everyone!
     description: course by @mytechnotalent
     website: https://0xinfection.github.io/reversing/
