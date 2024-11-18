@@ -1,6 +1,6 @@
 ---
 title: osu!gaming CTF 2024
-description: my writeups for osu!gaming CTF 2024
+description: My writeups for osu!gaming CTF 2024
 slug: osugamingctf-2024
 date: 2024-03-05 00:00:00+0000
 image: osu-gaming-ctf-2024-1.png
