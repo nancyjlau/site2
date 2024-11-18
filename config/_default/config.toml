@@ -2,7 +2,7 @@
 baseurl = "https://www.catgirl.ing"
 languageCode = "en-us"
 paginate = 5
-title = "rose's blog"
+title = "Rose's Blog"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
@@ -13,4 +13,4 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "rose_cat2"
+#disqusShortname = "rose_cat2"
