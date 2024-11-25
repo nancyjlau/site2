@@ -10,12 +10,12 @@ menu:
 comments: false
 ---
 
-hi, i'm rose. sometimes do ctfs/comps, should probably post more about projects, talks, and events soon.
+hi, i'm rose. sometimes do ctfs/comps, should probably post more soon.
 
 possible upcoming content
-  
-- more ctf stuff
-- hardware posting
-- formal methods post?
 
-email: nachofollow [at] gmail [dot] com
+- more ctf stuff
+- funny hardware posting
+- periodic updates to my ai/ml reading list
+
+email: najilau [at] ucsc [dot] edu

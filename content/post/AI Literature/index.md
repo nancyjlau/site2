@@ -1,8 +1,8 @@
 ---
 title: AI Literature
-description: ai resources
+description: all my ai resources
 slug: ai-literature
-date: 2024-03-15 00:00:00+0000
+date: 2024-11-24 00:00:00+0000
 categories:
     - AI
     - LLMs      # You can add weight to some posts to override the default sorting (date descending)
@@ -18,6 +18,9 @@ categories:
   + this book covers everything up to just before transformers
 - [LocalModelsPapers rentry link](https://rentry.org/LocalModelsPapers)
 - [Generative AI Handbook](https://genai-handbook.github.io/)
+- [AI Primers List](https://aman.ai/primers/ai/) 
+  + really good list of blogs for AI primers
+    + topics about: design/architecure, training, speech, vision, models, NLP, models, multimodal (VLMs), privacy-preserving/on-device AI, eval, MLOps/production, and hyperparameters
 
 ## Reading List
 - [LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
@@ -51,11 +54,11 @@ categories:
   - speech recognition with palm-e like strategy
 
 https://dreamtuner-diffusion.github.io/ - ipadapter but different
-https://arxiv.org/pdf/2312.13789.pdf - how i beat the big wigs
-https://arxiv.org/abs/2312.09608 - faster stable diffusion by skipping unecessary bits
-https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/code_for_anydoor_zeroshot_objectlevel_image/
-dont forget - diffusion slider demo   https://github.com/Kevin-thu/DiffMorpher?tab=readme-ov-file
-https://arxiv.org/pdf/2312.01943.pdf - anime
-https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2
-https://github.com/open-mmlab/PIA - video generator
-https://github.com/cumulo-autumn/StreamDiffusion - turbo go fast
+https://arxiv.org/pdf/2312.13789.pdf - how i beat the big wigs  
+https://arxiv.org/abs/2312.09608 - faster stable diffusion by skipping unecessary bits  
+https://github.com/damo-vilab/AnyDoor - instruct edit + https://old.reddit.com/r/StableDiffusion/comments/18kd0na/code_for_anydoor_zeroshot_objectlevel_image/  
+dont forget - diffusion slider demo   https://github.com/Kevin-thu/DiffMorpher   
+https://arxiv.org/pdf/2312.01943.pdf - anime  
+https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2  
+https://github.com/open-mmlab/PIA - video generator  
+https://github.com/cumulo-autumn/StreamDiffusion - turbo go fast  
