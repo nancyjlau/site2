@@ -15,7 +15,7 @@ links:
     description: RE challs
     website: http://reversing.kr/
   - title: dreamhack.io
-    description: web3 security stuff
+    description: good web3 security stuff
     website: https://dreamhack.io
     image: https://dreamhack.io/assets/img/for-beginner-1.6a474bc.svg
   - title: OST2 x86-64 Assembly
@@ -35,7 +35,7 @@ links:
     description:  learning PCIe stack in Windows (MMIO, DMA, TLPs, and more)
     website: https://ctf.re/windows/kernel/pcie/tutorial/2023/02/14/pcie-part-1/
   - title: Algorithms for Modern Hardware
-    description: this book isn't security related but cool
+    description: hpc stuff
     website: https://en.algorithmica.org/hpc/
     image: https://en.algorithmica.org/hpc/complexity/img/lithography.png
 
