@@ -12,4 +12,4 @@ comments: false
 
 hi, i'm rose. sometimes do ctfs/comps, should post more soon.
 
-email: najilau [at] ucsc [dot] edu
+email: rose [at] catgirl [dot] ing
