@@ -10,13 +10,6 @@ menu:
 comments: false
 ---
 
-hi, i'm rose. sometimes do ctfs/comps, should probably post more soon.
-
-possible upcoming content
-
-- more ctf stuff
-- funny hardware posting
-- exploring Apple's PCC VRE ([Private Cloud Compute Virtual Research Environment](https://security.apple.com/documentation/private-cloud-compute/virtualresearchenvironment))
-- periodic updates to my ai/ml reading list
+hi, i'm rose. sometimes do ctfs/comps, should post more soon.
 
 email: najilau [at] ucsc [dot] edu
