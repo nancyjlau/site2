@@ -48,4 +48,4 @@ menu:
 comments: false
 ---
 
-cool resources here
+some cyber resources here
