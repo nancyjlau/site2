@@ -1,5 +1,5 @@
 ---
-title: 
+title: 2026 Experiment Log
 description: 2026 Experiment Log
 slug: 2026-log
 date: 2026-01-04 00:00:00+0000
