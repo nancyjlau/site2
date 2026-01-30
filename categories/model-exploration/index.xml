@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Model Exploration on Rose's Blog</title><link>https://www.catgirl.ing/categories/model-exploration/</link><description>Recent content in Model Exploration on Rose's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catgirl.ing/categories/model-exploration/index.xml" rel="self" type="application/rss+xml"/><item><title>Improving Open Ended Model Exploration in Security Contexts</title><link>https://www.catgirl.ing/p/model-exploration/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://www.catgirl.ing/p/model-exploration/</guid><description>&lt;p>Hi, this is a working log with periodic updates.&lt;/p>
+&lt;p>I&amp;rsquo;ve been working with a 300 hour dataset collected from real time red/blue team defense logs in a real life setup from a cybersecurity competition.&lt;/p>
+&lt;p>We have:&lt;br>
+- 10 teams x 6 snapshots x 2 systems (Windows DC and Linux Wordpress)&lt;br>
+- ~70 GB of Windows Plaso forensic timelines&lt;br>
+- ~200k+ events per team&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Data&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>System&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Collection Tool&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Data Type&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Windows (Bluecheese)&lt;/td>
+&lt;td>Velociraptor&lt;/td>
+&lt;td>Plaso forensic timelines&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Linux (Oaxaca)&lt;/td>
+&lt;td>CyLR&lt;/td>
+&lt;td>Syslog, Apache access/error logs&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>From the logs, we can see red team activity, such as behaviors like XSS injection attempts on the WordPress login, path traversal attacks, SQL injection probes, web shell hunting (/sysShell, /webshell4), and CVE scanning.&lt;/p>
+&lt;p>All of this data is pretty good data that I haven&amp;rsquo;t been able to find anywhere else. I have no idea how to create clear tasks out of this, but I&amp;rsquo;m going to try to go with doing RLER from the &lt;a class="link" href="https://arxiv.org/abs/2511.19399" target="_blank" rel="noopener"
+>DR Tulu&lt;/a> paper.&lt;/p>
+&lt;p>Possible ideas:&lt;/p></description></item></channel></rss>
