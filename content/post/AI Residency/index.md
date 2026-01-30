@@ -12,10 +12,10 @@ Hi, this is a working log with periodic updates.
 
 I've been working with a 300 hour dataset collected from real time red/blue team defense logs in a real life setup from a cybersecurity competition. 
 
-We have:
-\- 10 teams x 6 snapshots x 2 systems (Windows DC and Linux Wordpress)
-\- ~70 GB of Windows Plaso forensic timelines
-\- ~200k+ events per team 
+We have:   
+\- 10 teams x 6 snapshots x 2 systems (Windows DC and Linux Wordpress)  
+\- ~70 GB of Windows Plaso forensic timelines   
+\- ~200k+ events per team  
 
 | Data         |                  |                                |
 |------------------------|------------------|--------------------------------|
